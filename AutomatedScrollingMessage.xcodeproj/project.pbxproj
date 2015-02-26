@@ -9,11 +9,10 @@
 /* Begin PBXBuildFile section */
 		112BEA801A9FCA7400F98867 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 112BEA7F1A9FCA7400F98867 /* main.m */; };
 		112BEA831A9FCA7400F98867 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 112BEA821A9FCA7400F98867 /* AppDelegate.m */; };
-		112BEA861A9FCA7400F98867 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 112BEA851A9FCA7400F98867 /* ViewController.m */; };
-		112BEA891A9FCA7400F98867 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 112BEA871A9FCA7400F98867 /* Main.storyboard */; };
 		112BEA8B1A9FCA7400F98867 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 112BEA8A1A9FCA7400F98867 /* Images.xcassets */; };
-		112BEA8E1A9FCA7400F98867 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 112BEA8C1A9FCA7400F98867 /* LaunchScreen.xib */; };
 		112BEA9A1A9FCA7400F98867 /* AutomatedScrollingMessageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 112BEA991A9FCA7400F98867 /* AutomatedScrollingMessageTests.m */; };
+		112BEAB01A9FD6BF00F98867 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 112BEAAE1A9FD6BF00F98867 /* MainViewController.m */; };
+		112BEAB11A9FD6BF00F98867 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 112BEAAF1A9FD6BF00F98867 /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +31,13 @@
 		112BEA7F1A9FCA7400F98867 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		112BEA811A9FCA7400F98867 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		112BEA821A9FCA7400F98867 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		112BEA841A9FCA7400F98867 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		112BEA851A9FCA7400F98867 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		112BEA881A9FCA7400F98867 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		112BEA8A1A9FCA7400F98867 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		112BEA8D1A9FCA7400F98867 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		112BEA931A9FCA7400F98867 /* AutomatedScrollingMessageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutomatedScrollingMessageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		112BEA981A9FCA7400F98867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		112BEA991A9FCA7400F98867 /* AutomatedScrollingMessageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutomatedScrollingMessageTests.m; sourceTree = "<group>"; };
+		112BEAAD1A9FD6BF00F98867 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		112BEAAE1A9FD6BF00F98867 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		112BEAAF1A9FD6BF00F98867 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +79,12 @@
 		112BEA7C1A9FCA7400F98867 /* AutomatedScrollingMessage */ = {
 			isa = PBXGroup;
 			children = (
+				112BEAAD1A9FD6BF00F98867 /* MainViewController.h */,
+				112BEAAE1A9FD6BF00F98867 /* MainViewController.m */,
+				112BEAAF1A9FD6BF00F98867 /* MainViewController.xib */,
 				112BEA811A9FCA7400F98867 /* AppDelegate.h */,
 				112BEA821A9FCA7400F98867 /* AppDelegate.m */,
-				112BEA841A9FCA7400F98867 /* ViewController.h */,
-				112BEA851A9FCA7400F98867 /* ViewController.m */,
-				112BEA871A9FCA7400F98867 /* Main.storyboard */,
 				112BEA8A1A9FCA7400F98867 /* Images.xcassets */,
-				112BEA8C1A9FCA7400F98867 /* LaunchScreen.xib */,
 				112BEA7D1A9FCA7400F98867 /* Supporting Files */,
 			);
 			path = AutomatedScrollingMessage;
@@ -199,9 +196,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				112BEA891A9FCA7400F98867 /* Main.storyboard in Resources */,
-				112BEA8E1A9FCA7400F98867 /* LaunchScreen.xib in Resources */,
 				112BEA8B1A9FCA7400F98867 /* Images.xcassets in Resources */,
+				112BEAB11A9FD6BF00F98867 /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +215,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				112BEA861A9FCA7400F98867 /* ViewController.m in Sources */,
 				112BEA831A9FCA7400F98867 /* AppDelegate.m in Sources */,
+				112BEAB01A9FD6BF00F98867 /* MainViewController.m in Sources */,
 				112BEA801A9FCA7400F98867 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,25 +238,6 @@
 			targetProxy = 112BEA941A9FCA7400F98867 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		112BEA871A9FCA7400F98867 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				112BEA881A9FCA7400F98867 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		112BEA8C1A9FCA7400F98867 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				112BEA8D1A9FCA7400F98867 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		112BEA9B1A9FCA7400F98867 /* Debug */ = {
