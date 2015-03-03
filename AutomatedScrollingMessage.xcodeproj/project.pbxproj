@@ -13,6 +13,8 @@
 		112BEA9A1A9FCA7400F98867 /* AutomatedScrollingMessageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 112BEA991A9FCA7400F98867 /* AutomatedScrollingMessageTests.m */; };
 		112BEAB01A9FD6BF00F98867 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 112BEAAE1A9FD6BF00F98867 /* MainViewController.m */; };
 		112BEAB11A9FD6BF00F98867 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 112BEAAF1A9FD6BF00F98867 /* MainViewController.xib */; };
+		11CD9B821AA5239800FE3E98 /* AutomatedScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CD9B811AA5239800FE3E98 /* AutomatedScrollView.m */; };
+		11CD9B841AA524BC00FE3E98 /* AutomatedScrollView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11CD9B831AA524BC00FE3E98 /* AutomatedScrollView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,9 @@
 		112BEAAD1A9FD6BF00F98867 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		112BEAAE1A9FD6BF00F98867 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		112BEAAF1A9FD6BF00F98867 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		11CD9B801AA5239800FE3E98 /* AutomatedScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutomatedScrollView.h; sourceTree = "<group>"; };
+		11CD9B811AA5239800FE3E98 /* AutomatedScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutomatedScrollView.m; sourceTree = "<group>"; };
+		11CD9B831AA524BC00FE3E98 /* AutomatedScrollView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AutomatedScrollView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +89,9 @@
 				112BEAAF1A9FD6BF00F98867 /* MainViewController.xib */,
 				112BEA811A9FCA7400F98867 /* AppDelegate.h */,
 				112BEA821A9FCA7400F98867 /* AppDelegate.m */,
+				11CD9B801AA5239800FE3E98 /* AutomatedScrollView.h */,
+				11CD9B811AA5239800FE3E98 /* AutomatedScrollView.m */,
+				11CD9B831AA524BC00FE3E98 /* AutomatedScrollView.xib */,
 				112BEA8A1A9FCA7400F98867 /* Images.xcassets */,
 				112BEA7D1A9FCA7400F98867 /* Supporting Files */,
 			);
@@ -197,6 +205,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				112BEA8B1A9FCA7400F98867 /* Images.xcassets in Resources */,
+				11CD9B841AA524BC00FE3E98 /* AutomatedScrollView.xib in Resources */,
 				112BEAB11A9FD6BF00F98867 /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,6 +226,7 @@
 			files = (
 				112BEA831A9FCA7400F98867 /* AppDelegate.m in Sources */,
 				112BEAB01A9FD6BF00F98867 /* MainViewController.m in Sources */,
+				11CD9B821AA5239800FE3E98 /* AutomatedScrollView.m in Sources */,
 				112BEA801A9FCA7400F98867 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -391,6 +401,7 @@
 				112BEA9F1A9FCA7400F98867 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		112BEAA01A9FCA7400F98867 /* Build configuration list for PBXNativeTarget "AutomatedScrollingMessageTests" */ = {
 			isa = XCConfigurationList;
@@ -399,6 +410,7 @@
 				112BEAA21A9FCA7400F98867 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
