@@ -10,4 +10,7 @@
 
 @interface AutomatedScrollView : UIView <UIScrollViewDelegate>
 
+@property (nonatomic,strong) UIColor *labelTextColor;
+
+
 @end
