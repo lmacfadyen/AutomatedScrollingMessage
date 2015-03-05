@@ -12,5 +12,10 @@
 
 @property (nonatomic,strong) UIColor *labelTextColor;
 
+-(void)start:(NSString *)label;
+-(void)stop;
+-(void)setBannerColor:(UIColor *)color;
+
+
 
 @end

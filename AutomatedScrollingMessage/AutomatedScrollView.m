@@ -311,6 +311,34 @@
     return didRecenter;
 }
 
+#pragma mark - Public Interface
+
+// Start or restart timer with provided label as the message
+- (void)start:(NSString *)label
+{
+    // Update the labels and restart based on new text and label size
+    [self stopTimer];
+    [self removeAllLabels];
+    
+    _labelText = label;
+    
+    // Start the programmatic scrolling
+    [self doHorizontalScrolling];
+}
+
+// Stop scrolling, remove timer and labels
+- (void)stop
+{
+    [self stopTimer];
+    [self removeAllLabels];
+}
+
+- (void)setBannerColor:(UIColor *)color
+{
+    [_labelContainerView setBackgroundColor:color];
+}
+
+
 
 
 

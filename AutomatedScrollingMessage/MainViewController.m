@@ -7,8 +7,10 @@
 //
 
 #import "MainViewController.h"
+#import "AutomatedScrollView.h"
 
 @interface MainViewController ()
+@property (weak, nonatomic) IBOutlet AutomatedScrollView *automatedScrollView;
 
 @end
 
@@ -17,6 +19,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    [_automatedScrollView start:@"Scrolling message supplied by main controller!"];
+    //[_automatedScrollView setBannerColor:[UIColor redColor]];
+
 }
 
 - (void)didReceiveMemoryWarning {
