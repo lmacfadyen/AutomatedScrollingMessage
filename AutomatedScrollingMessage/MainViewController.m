@@ -11,6 +11,8 @@
 
 @interface MainViewController ()
 @property (weak, nonatomic) IBOutlet AutomatedScrollView *automatedScrollView;
+@property (weak, nonatomic) IBOutlet UISwitch *switchView;
+- (IBAction)switchPressed:(id)sender;
 
 @end
 
@@ -30,4 +32,14 @@
 }
 
 
+- (IBAction)switchPressed:(id)sender {
+    if (self.switchView.isOn)
+    {
+        [self.automatedScrollView start:@"Scrolling text that we set from the Switch!"];
+    }
+    else
+    {
+        [self.automatedScrollView stop];
+    }
+}
 @end
