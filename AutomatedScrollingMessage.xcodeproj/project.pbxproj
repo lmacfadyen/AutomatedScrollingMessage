@@ -13,6 +13,8 @@
 		112BEA9A1A9FCA7400F98867 /* AutomatedScrollingMessageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 112BEA991A9FCA7400F98867 /* AutomatedScrollingMessageTests.m */; };
 		112BEAB01A9FD6BF00F98867 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 112BEAAE1A9FD6BF00F98867 /* MainViewController.m */; };
 		112BEAB11A9FD6BF00F98867 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 112BEAAF1A9FD6BF00F98867 /* MainViewController.xib */; };
+		11B654A91AAA2C660037AC55 /* AutomatedScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B654A71AAA2C660037AC55 /* AutomatedScrollView.m */; };
+		11B654AA1AAA2C660037AC55 /* AutomatedScrollView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11B654A81AAA2C660037AC55 /* AutomatedScrollView.xib */; };
 		11CD9B821AA5239800FE3E98 /* AutomatedScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CD9B811AA5239800FE3E98 /* AutomatedScrollView.m */; };
 		11CD9B841AA524BC00FE3E98 /* AutomatedScrollView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11CD9B831AA524BC00FE3E98 /* AutomatedScrollView.xib */; };
 /* End PBXBuildFile section */
@@ -40,6 +42,9 @@
 		112BEAAD1A9FD6BF00F98867 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		112BEAAE1A9FD6BF00F98867 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		112BEAAF1A9FD6BF00F98867 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		11B654A61AAA2C660037AC55 /* AutomatedScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AutomatedScrollView.h; path = AutomatedScrollView/AutomatedScrollView.h; sourceTree = "<group>"; };
+		11B654A71AAA2C660037AC55 /* AutomatedScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AutomatedScrollView.m; path = AutomatedScrollView/AutomatedScrollView.m; sourceTree = "<group>"; };
+		11B654A81AAA2C660037AC55 /* AutomatedScrollView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AutomatedScrollView.xib; path = AutomatedScrollView/AutomatedScrollView.xib; sourceTree = "<group>"; };
 		11CD9B801AA5239800FE3E98 /* AutomatedScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutomatedScrollView.h; sourceTree = "<group>"; };
 		11CD9B811AA5239800FE3E98 /* AutomatedScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutomatedScrollView.m; sourceTree = "<group>"; };
 		11CD9B831AA524BC00FE3E98 /* AutomatedScrollView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AutomatedScrollView.xib; sourceTree = "<group>"; };
@@ -84,6 +89,7 @@
 		112BEA7C1A9FCA7400F98867 /* AutomatedScrollingMessage */ = {
 			isa = PBXGroup;
 			children = (
+				11B654AB1AAA2C6C0037AC55 /* AutomatedScrollView */,
 				112BEAAD1A9FD6BF00F98867 /* MainViewController.h */,
 				112BEAAE1A9FD6BF00F98867 /* MainViewController.m */,
 				112BEAAF1A9FD6BF00F98867 /* MainViewController.xib */,
@@ -122,6 +128,16 @@
 				112BEA981A9FCA7400F98867 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		11B654AB1AAA2C6C0037AC55 /* AutomatedScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				11B654A61AAA2C660037AC55 /* AutomatedScrollView.h */,
+				11B654A71AAA2C660037AC55 /* AutomatedScrollView.m */,
+				11B654A81AAA2C660037AC55 /* AutomatedScrollView.xib */,
+			);
+			name = AutomatedScrollView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,6 +222,7 @@
 			files = (
 				112BEA8B1A9FCA7400F98867 /* Images.xcassets in Resources */,
 				11CD9B841AA524BC00FE3E98 /* AutomatedScrollView.xib in Resources */,
+				11B654AA1AAA2C660037AC55 /* AutomatedScrollView.xib in Resources */,
 				112BEAB11A9FD6BF00F98867 /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -226,6 +243,7 @@
 			files = (
 				112BEA831A9FCA7400F98867 /* AppDelegate.m in Sources */,
 				112BEAB01A9FD6BF00F98867 /* MainViewController.m in Sources */,
+				11B654A91AAA2C660037AC55 /* AutomatedScrollView.m in Sources */,
 				11CD9B821AA5239800FE3E98 /* AutomatedScrollView.m in Sources */,
 				112BEA801A9FCA7400F98867 /* main.m in Sources */,
 			);
@@ -332,6 +350,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = AutomatedScrollingMessage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -342,6 +361,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = AutomatedScrollingMessage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
