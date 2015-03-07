@@ -11,5 +11,5 @@ If you want to use the control in your own apps, feel free to do so by copying t
 
 My contact information is on my website should you have feedback or enquiries.
 
-* Implemented with Xcode 6.1.1 and iOS 8.1
+* Implemented with Xcode 6.1.1 and iOS 8.1 *
 
